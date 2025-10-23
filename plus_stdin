@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-FileCopyrightText: 2025 Taiki Nakazawa
 import sys
    
 ans = 0.0#もともと0.0だったのを0に変更
