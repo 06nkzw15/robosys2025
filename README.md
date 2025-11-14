@@ -1,8 +1,12 @@
 # robosys2025
 ロボットシステム課題1
+# kadai1コマンド
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-- このパッケージは，ロボットシステム学第5回由来のコード（© 2025 Ryuichi Ueda ）を利用しています．
-- このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-    - [ryuichiueda/my_slides robosys_2025](https://ryuichiueda.github.io/slides_marp/robosys2025/lesson5.html#23)
+- このプログラムは、標準入力から読み込んだ文字列から英数字以外を削除して、アルファベットを小文字に統一し、それをASCIIコード順に並び変えたものです。
+## 必要なソフトウェア
+- Python
+
+## テスト環境
+- Ubuntu 24.04.3 LTS
 - © 2025 Taiki Nakazawa
