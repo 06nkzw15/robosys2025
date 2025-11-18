@@ -4,8 +4,7 @@
 import sys
 import re
 
-whitespace = re.compile(r'[\t ]+')
-allow_char = re.compile(r'[^A-Za-z0-9\s]')  # 許可するのは英数字と空白文字（改行含む）
+allow_char = re.compile(r'[^A-Za-z0-9\s]')  # 許可するのは英数字（改行含む）
 
 def process_line(line: str) -> str:
     # 英数字のみ残す
