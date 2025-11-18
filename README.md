@@ -21,4 +21,5 @@
   - テスト済みバージョン: 3.7〜3.10
 ## テスト環境
 - Ubuntu 24.04.3 LTS
-- © 2025 Taiki Nakazawa
+
+© 2025 Taiki Nakazawa
