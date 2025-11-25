@@ -1,5 +1,5 @@
 # robosys2025
-![test](https://github.com/06nkzw15/robosys2025/actions/runs/19455230550)
+![test](https://github.com/ryuichiueda/robosys2022/actions/workflows/test.yml/badge.svg)
 ロボットシステム課題1
 # kadai1コマンド
 
