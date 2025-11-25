@@ -1,5 +1,6 @@
 #!/bin/bash -xv
-
+# SPDX-FileCopyrightText: 2025 Taiki Nakazawa
+# SPDX-License-Identifier: BSD-3-Clause
 CMD="./kadai1"
 
 ng() {
