@@ -4,18 +4,18 @@
 import sys
 import re
 
-allow_char = re.compile(r'[^A-Za-z0-9\s]')  # 許可するのは英数字（改行含む）
+allow_char = re.compile(r'[^A-Za-z0-9\s]')  
 
 def process_line(line: str) -> str:
-    # 英数字のみ残す
+    
     s = allow_char.sub('', line)
     s = s.lower()
 
-    # 数字と英字に分割
+    
     digits = sorted([ch for ch in s if ch.isdigit()])
     letters = sorted([ch for ch in s if ch.isalpha()])
 
-    # 「数字 → 英字」の順に並べて返す
+    
     return ''.join(digits + letters)
 
 def main():
