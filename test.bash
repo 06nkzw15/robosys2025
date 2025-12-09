@@ -1,7 +1,7 @@
 #!/bin/bash -xv
 # SPDX-FileCopyrightText: 2025 Taiki Nakazawa
 # SPDX-License-Identifier: BSD-3-Clause
-CMD="./kadai1"
+CMD="./sort"
 
 ng() {
     echo "NG: line $1: expected '$2' but got '$3'"
